@@ -45,7 +45,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-muted"><span class="fa fa-user"></span>&nbsp;Cadastro de Novo Cliente</h1>
+          <h1 class="text-muted"><span class="fa fa-credit-card"></span>&nbsp;Dados de Pagamento</h1>
         </div>
       </div>
       <div class="row">
@@ -57,7 +57,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-left text-info">Preencha os campos e crie sua conta para começar a comprar!</h1>
+          <h1 class="text-left text-info">Pagamento através de cartão de credito</h1>
         </div>
       </div>
     </div>
@@ -74,8 +74,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-6"> <label for="name">Nome</label> <input type="text" class="form-control" placeholder="Insira seu nome completo aqui" name="nome"> </div>
-            <div class="col-md-6"> <label for="cpf">CPF</label> <input type="text" class="form-control" placeholder="000.000.000-0X" name="cpf"> </div>
+            <div class="col-md-6"> <label for="name">Nome do Titular</label> <input type="text" class="form-control" placeholder="Insira o nome completo aqui" name="nome"> </div>
+            <div class="col-md-6"> <label for="cpf">Numero do Cartão</label> <input type="text" class="form-control" placeholder="5453/0100/0006/6167" name="cpf"> </div>
           </div>
         </div>
       </div>
@@ -84,17 +84,21 @@
   <div class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"> <label for="key">Senha</label> <input type="password" class="form-control" name="key" placeholder="****"> </div>
-        <div class="col-md-6"> <label for="date">Data de Nascimento</label> <input type="date" class="form-control" name="date"> </div>
+        <div class="col-md-6"> <label for="key">CCV</label> <input type="number" class="form-control" name="key" placeholder="123"> </div>
+        <div class="col-md-1"> </div>
+        <div class="col-md-2"> <label for="mes">Mes de Validade</label> <input type="number" class="form-control" name="mes"> </div>/
+        <div class="col-md-2"> <label for="ano">Ano de Validade</label> <input type="number" class="form-control" name="ano"> </div>
       </div>
     </div>
   </div>
   <div class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"> <label for="mail">Email</label> <input type="mail" class="form-control" placeholder="usuario@email.com" name="mail"> </div>
         <div class="col-md-6">
-          <div class="col-md-12 text-center"><a href="#" class="btn btn-lg text-center text-white text-uppercase active btn-warning btn-block" data-toggle="">Submeter cadastro</a></div>
+          <div class="col-md-12 text-center"><a href="#" class="btn btn-lg text-center text-white text-uppercase active btn-info btn-block" data-toggle="">Efetuar Pagamento</a></div>
+        </div>
+        <div class="col-md-6">
+          <div class="col-md-12 text-center"><a href="#" class="btn btn-lg text-center text-white text-uppercase active btn-danger btn-block" data-toggle="">Cancelar</a></div>
         </div>
       </div>
     </div>
